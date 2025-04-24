@@ -84,6 +84,7 @@
             <int>676</int>
             <int>677</int>
             <int>674</int>
+            <int>5</int>
           </affixes>
           <comparsion>EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -146,7 +147,6 @@
             <int>672</int>
             <int>677</int>
             <int>36</int>
-            <int>101</int>
             <int>762</int>
             <int>35</int>
           </affixes>
@@ -630,6 +630,7 @@
             <int>676</int>
             <int>677</int>
             <int>674</int>
+            <int>5</int>
           </affixes>
           <comparsion>EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
