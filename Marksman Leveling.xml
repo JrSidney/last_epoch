@@ -3,7 +3,7 @@
   <filterIcon>6</filterIcon>
   <filterIconColor>17</filterIconColor>
   <description>Mostra todos T7, duplo T6, itens únicos com LP separados por cor! Preencher a primeira regra (1) do filtro com os afixos úteis pra sua build</description>
-  <lastModifiedInVersion>1.2.0.6</lastModifiedInVersion>
+  <lastModifiedInVersion>1.2.2.2</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
     <Rule>
@@ -597,6 +597,26 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+          </type>
+          <subTypes>
+            <int>1</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
             <EquipmentType>BOW</EquipmentType>
             <EquipmentType>QUIVER</EquipmentType>
             <EquipmentType>BELT</EquipmentType>
@@ -1136,6 +1156,56 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Exalted Rogue</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>19</unsignedShort>
+            <unsignedShort>81</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>1</minLegendaryPotential>
+          <maxLegendaryPotential>4</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>2</minLegendaryPotential>
+          <maxLegendaryPotential>4</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>2</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
     </Rule>
   </rules>
 </ItemFilter>
